@@ -1,4 +1,4 @@
-# PlaneacionSistemasInformaticos
+# Planeacion Sistemas Informaticos
 
 Misión: Un software que pueda ser integrado a gafas de realidad aumentada el cual permita traducir lenguaje de señas a un lenguaje escrito el cual será mostrado como subtítulos en el visor del las gafas o como audio, siendo leído por una voz sintetizada.
 
