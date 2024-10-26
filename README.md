@@ -89,3 +89,11 @@ Desarrollar un software capaz de traducir lenguaje de señas a texto o audio en 
 
 6. **Facilidad de uso**:
     - El software debe ser intuitivo y fácil de usar por cualquier persona, incluyendo usuarios que no tengan conocimientos técnicos.
+      
+---
+
+## Vista Previa de la Interfaz Gráfica
+
+Haz clic en el siguiente enlace para ver la vista previa de la interfaz gráfica del proyecto:
+
+[Ver Interfaz Gráfica en Figma](https://www.figma.com/design/rg2hDV38r1uxADBCp3hQmp/Figma-basics?node-id=1669-162202&node-type=canvas&t=USGsFJQcRQlk16x4-0)
