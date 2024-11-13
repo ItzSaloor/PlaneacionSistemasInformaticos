@@ -1,99 +1,98 @@
 # Planeación Sistemas Informáticos
 
-**Líder:** Gabriela Palmezano
+**Líder del Proyecto:** Gabriela Palmezano
 
 ## Misión
-Un software que pueda ser integrado a gafas de realidad aumentada el cual permita traducir lenguaje de señas a un lenguaje escrito, que será mostrado como subtítulos en el visor de las gafas o como audio, leído por una voz sintetizada.
+Desarrollar un software integrado en gafas de realidad aumentada que traduzca el lenguaje de señas a texto escrito o audio, presentado como subtítulos en el visor de las gafas o a través de una voz sintetizada.
 
 ## Visión
-Se busca lograr una mejor comunicación entre las personas que hacen uso de lenguaje de señas y quienes no saben el lenguaje.
+Facilitar la comunicación entre personas que usan lenguaje de señas y aquellos que no lo conocen, promoviendo la inclusión y la accesibilidad en diversas situaciones cotidianas.
 
 ---
 
 ## Descripción del Proyecto
 
 ### Desarrollo
-Se va a desarrollar el software, el cual puede ser integrado a gafas que actualmente están en producción o en dispositivos móviles inteligentes que tengan cámara. Las funciones serán detectar los movimientos de una persona en tiempo real y traducirlos al idioma seleccionado. Por ahora, se enfocará en traducir el lenguaje de señas en español al lenguaje escrito en español.
+El proyecto consiste en crear un software capaz de integrarse con gafas de realidad aumentada existentes o con dispositivos móviles inteligentes con cámara. Este software detectará y procesará los movimientos de las manos en tiempo real, traduciendo las señas al idioma elegido. La versión inicial se enfocará en traducir lenguaje de señas en español a texto escrito en español.
 
 ---
 
 ## Riesgos
 
-1. **Precisión del reconocimiento**: Variaciones en las señas y condiciones de uso (como iluminación o ángulo).
-2. **Privacidad y seguridad**: Protección de los datos y las imágenes capturadas.
-3. **Accesibilidad**: Que el software sea fácil de usar por todos.
-4. **Exclusión de variantes**: Considerar la diversidad de lenguas de señas.
-5. **Sesgo algorítmico**: Evitar que el software funcione mejor para algunos grupos que para otros.
-6. **Integración con traductores comunes**: Retos técnicos al traducir entre lenguas de señas y orales.
+1. **Precisión del reconocimiento**: Posibles variaciones en las señas y desafíos técnicos derivados de condiciones como iluminación o ángulos de cámara.
+2. **Privacidad y seguridad**: Asegurar la protección de los datos e imágenes capturadas, cumpliendo con normativas de privacidad.
+3. **Accesibilidad**: Garantizar que el software sea fácil de usar para todo tipo de usuarios, sin importar sus conocimientos técnicos.
+4. **Diversidad de lenguas de señas**: Considerar la amplia gama de variantes en el lenguaje de señas.
+5. **Sesgo en el reconocimiento**: Evitar que el software tenga un desempeño desigual según los grupos demográficos o condiciones de uso.
+6. **Compatibilidad con traductores convencionales**: Retos técnicos al integrar traducciones entre lenguas de señas y lenguas orales.
 
 ---
 
 ## Recursos Necesarios
 
-### Recursos Tecnológicos
+### Tecnológicos
 
-- **Hardware**: Gafas AR, cámaras de alta resolución, sensores de movimiento, y GPU para procesamiento en tiempo real.
-- **Software**: Modelos de reconocimiento de gestos basados en IA, una base de datos del lenguaje de señas español, algoritmos de conversión de texto a voz y una interfaz de usuario optimizada.
-- **Infraestructura**: Servidores en la nube para procesar datos y redes para la transmisión en tiempo real.
+- **Hardware**: Gafas de realidad aumentada, cámaras de alta resolución, sensores de movimiento y unidades GPU para el procesamiento en tiempo real.
+- **Software**: Modelos de IA para reconocimiento de gestos, base de datos de señas en español, algoritmos para conversión de texto a voz, y una interfaz de usuario accesible.
+- **Infraestructura**: Servidores en la nube para el procesamiento de datos y redes de comunicación en tiempo real.
 
-### Recursos Humanos
+### Humanos
 
-- **Desarrolladores**: Especialistas en visión por computadora, IA, programación AR/VR y gestión en la nube.
-- **Expertos en lenguaje de señas**: Intérpretes y lingüistas para crear la base de datos de gestos.
-- **Diseñadores**: Para crear una interfaz accesible y fácil de usar.
+- **Desarrolladores**: Especialistas en visión por computadora, inteligencia artificial, programación en AR/VR y gestión de infraestructura en la nube.
+- **Expertos en lenguaje de señas**: Intérpretes y lingüistas para la creación de la base de datos de gestos.
+- **Diseñadores UX/UI**: Para diseñar una interfaz amigable y accesible.
 
 ---
 
 ## Análisis de Requerimientos
 
-### A. Objetivo
-Desarrollar un software capaz de traducir lenguaje de señas a texto o audio en tiempo real, utilizando gafas de realidad aumentada o dispositivos móviles con cámara. El objetivo es mejorar la comunicación entre personas sordas que utilizan lenguaje de señas y aquellas que no lo conocen, mediante subtítulos en el visor de las gafas o una voz sintetizada.
+### Objetivo
+Crear un software que permita traducir lenguaje de señas a texto o audio en tiempo real, usando gafas de realidad aumentada o dispositivos móviles con cámara. El fin es mejorar la comunicación entre personas que utilizan lenguaje de señas y quienes no lo conocen, mostrando subtítulos en las gafas o proporcionando una traducción mediante voz sintetizada.
 
-### B. Documentación
+### Documentación
 
-#### Requisitos Funcionales:
+#### Requisitos Funcionales
 
-1. **Detección de señas en tiempo real**:
-    - El sistema debe reconocer y procesar los movimientos de las manos para identificar las señas.
-    - El reconocimiento debe funcionar con una cámara integrada en gafas AR o en dispositivos móviles inteligentes.
+1. **Reconocimiento de señas en tiempo real**:
+    - El sistema debe detectar y procesar los movimientos de las manos para identificar señas en tiempo real.
+    - Compatible con cámaras integradas en gafas AR o dispositivos móviles.
 
-2. **Traducción a lenguaje escrito**:
-    - Las señas detectadas deben ser traducidas a texto en el idioma español, que será desplegado en forma de subtítulos en las gafas o en la pantalla del dispositivo móvil.
+2. **Traducción a texto**:
+    - Las señas deben traducirse a texto en español, que se mostrará como subtítulos en las gafas o en la pantalla del dispositivo.
 
-3. **Traducción a audio**:
-    - El texto generado debe ser convertido en audio mediante un sintetizador de voz, permitiendo la opción de escuchar la traducción en tiempo real.
+3. **Conversión a audio**:
+    - El texto debe poder ser convertido a audio usando un sintetizador de voz, para permitir una traducción hablada en tiempo real.
 
 4. **Selección de idioma de salida**:
-    - El usuario debe poder seleccionar el idioma de salida (por ahora español) en el que se realizará la traducción.
+    - El usuario podrá elegir el idioma de la traducción (inicialmente disponible solo en español).
 
 5. **Interfaz de usuario**:
-    - La aplicación debe contar con una interfaz accesible que permita ajustar configuraciones como idioma, velocidad de subtítulos, y volumen de la voz sintetizada.
+    - La aplicación debe ofrecer una interfaz accesible, permitiendo ajustar configuraciones como idioma, velocidad de subtítulos y volumen de la voz sintetizada.
 
-#### Requisitos No Funcionales:
+#### Requisitos No Funcionales
 
 1. **Rendimiento**:
-    - El sistema debe funcionar en tiempo real, con una latencia mínima entre la detección de señas y la generación de texto o audio.
+    - El sistema debe ofrecer una respuesta en tiempo real con mínima latencia entre la detección de señas y la generación de texto o audio.
 
 2. **Seguridad y privacidad**:
-    - Las imágenes y los datos capturados deben ser procesados de manera segura, cumpliendo con las normativas de protección de datos.
-    - No se debe almacenar ninguna imagen o dato personal sin el consentimiento del usuario.
+    - Las imágenes y datos deben ser procesados de forma segura, sin almacenarse sin consentimiento del usuario, cumpliendo las normativas de protección de datos.
 
 3. **Escalabilidad**:
-    - El software debe ser capaz de procesar un volumen alto de información cuando sea usado en múltiples dispositivos simultáneamente, empleando servidores en la nube para el procesamiento si es necesario.
+    - El sistema debe ser capaz de gestionar múltiples usuarios simultáneamente, utilizando servidores en la nube para el procesamiento si es necesario.
 
 4. **Compatibilidad**:
-    - El sistema debe ser compatible con las gafas AR disponibles en el mercado, así como con dispositivos móviles inteligentes que cuenten con cámaras de alta resolución.
+    - El software debe ser compatible con diferentes modelos de gafas AR y dispositivos móviles con cámaras de alta resolución.
 
 5. **Precisión**:
-    - El sistema debe tener una alta precisión en el reconocimiento de señas, minimizando errores causados por variaciones en el ángulo, iluminación o gestos individuales.
+    - El reconocimiento de señas debe ser preciso, minimizando errores debidos a variaciones en ángulo, iluminación o gestos individuales.
 
-6. **Facilidad de uso**:
-    - El software debe ser intuitivo y fácil de usar por cualquier persona, incluyendo usuarios que no tengan conocimientos técnicos.
-      
+6. **Usabilidad**:
+    - La interfaz debe ser intuitiva y fácil de usar, independientemente del nivel técnico del usuario.
+
 ---
 
-## Vista Previa de la Interfaz Gráfica
+## Vista Previa de la Interfaz
 
-Haz clic en el siguiente enlace para ver la vista previa de la interfaz gráfica del proyecto:
+Puedes explorar una vista previa de la interfaz gráfica del proyecto en el siguiente enlace:
 
-[Ver Interfaz Gráfica en Figma](https://www.figma.com/design/rg2hDV38r1uxADBCp3hQmp/Figma-basics?node-id=1669-162202&node-type=canvas&t=USGsFJQcRQlk16x4-0)
+[Ver Interfaz en Figma](https://www.figma.com/design/rg2hDV38r1uxADBCp3hQmp/Figma-basics?node-id=1669-162202&node-type=canvas&t=USGsFJQcRQlk16x4-0)
